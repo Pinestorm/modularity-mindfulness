@@ -13,3 +13,36 @@ html {
 .nav a:hover {
   color: #000;
 }
+
+.slogan {
+  border-top: 2px solid #e2e2e2;
+  border-bottom: 2px solid #e2e2e2;
+}
+
+.btn-ghost {
+  color: #005e76;
+  border-color: #8bc9d9;
+  border-width: 1px;
+}
+
+.btn-ghost:hover {
+  color: #005e76;
+  border-color: #005e76;
+  background-color: #0084a6;
+}
+
+.border {
+  border-top: 2px solid #e2e2e2;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .masthead {
+    text-align: left;
+  }
+
+  .head-right {
+    text-align: right;
+  }
+
+}
